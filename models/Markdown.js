@@ -4,6 +4,7 @@ const markdownSchema = new mongoose.Schema({
     name: String,
     content: String,
     createdAt: Date,
+    updatedAt: Date,
     id: Number
 })
 
